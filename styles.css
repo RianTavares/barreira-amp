@@ -1,0 +1,157 @@
+body {
+  background-color: gray;
+}
+
+/* .paywall-amp-article *{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  } */
+
+.paywall-amp-article {
+  width: calc(100% - 80px);
+  margin: 50px auto;
+  background-color: white;
+  min-height: 300px;
+  max-height: 400px;
+}
+
+.paywall-amp-article 
+  .paywall-amp-section1 {
+    width: 100%;
+    min-height: 250px;
+    max-height: 350px;
+    background-color: #2a4ec8;
+}
+
+.paywall-amp-article 
+  .paywall-amp-section1 
+  .paywall-amp-section1-content {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paywall-amp-article
+  .paywall-amp-section1
+  .paywall-amp-section1-content
+  hgroup
+  h2 {
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  padding-top: 40px;
+  margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.paywall-amp-article 
+  .paywall-amp-section1 
+  .paywall-amp-section1-content 
+  hgroup 
+  h2::before {
+    border-top: none;
+}
+
+.paywall-amp-article
+  .paywall-amp-section1
+  .paywall-amp-section1-content
+  hgroup
+  p {
+    line-height: unset;
+    margin-bottom: unset;
+  }
+
+.paywall-amp-article
+  .paywall-amp-section1
+  .paywall-amp-section1-content
+  .paywall-amp-section1-content-subtitle {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-size: 25px;
+    line-height: unset;
+    padding: 0;
+}
+
+.paywall-amp-article
+  .paywall-amp-section1
+  .paywall-amp-section1-content
+  .paywall-amp-section1-content-subtitle
+  span {
+  font-weight: bold;
+}
+
+.paywall-amp-article
+  .paywall-amp-section1
+  .paywall-amp-section1-content
+  .paywall-amp-section1-content-details {
+    font-size: 11px;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+    padding: 0 0 25px 0;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    line-height: unset;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paywall-amp-article
+  .paywall-amp-section1
+  .paywall-amp-section1-content
+  button {
+    width: 180px;
+    height: 40px;
+    background-color: #db634b;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paywall-amp-article 
+  .paywall-amp-section2 {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paywall-amp-article 
+  .paywall-amp-section2 
+  .paywall-amp-section2-login {
+    margin: 0;
+    padding: 5px 0 10px 0;
+    color: black;
+    font-size: 11px;
+}
+
+.paywall-amp-article 
+  .paywall-amp-section2 
+  .paywall-amp-section2-login a {
+    font-weight: bold;
+    color: black;
+}
+
+
