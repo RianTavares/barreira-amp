@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-access" src="https://cdn.ampproject.org/v0/amp-access-0.1.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script id="amp-access" type="application/json">
+    {
+      "authorization": "https://dashboard.tinypass.com/xbuilder/experience/executeAmp?protocol_version=1&aid=GTCopIDc5z&reader_id=READER_ID&url=SOURCE_URL&referer=DOCUMENT_REFERRER&_=RANDOM&custom_variables=%7B%22tipoConteudoPiano%22%3A%22materia%22%2C%22ambienteUtilizadoPiano%22%3A%22prd%22%2C%22conteudoExclusivo%22%3Afalse%2C%22nomeProdutoPiano%22%3A%22oglobo%22%7D",
+      "noPingback": "true",
+      "login": {
+      "sign-in": "https://login.globo.com/login/3981?url=https://oglobo.globo.com/esportes/fifa-estuda-adiar-novo-mundial-de-clubes-para-2022-diz-jornal-24370868",
+      "subscribe": "https://assinaturaglobo.globo.com/o-globo/oferta/globo-digital-2-meses-gratis?campanha=nao&interno_origem=siteoglobo&interno_midia=barreiramp&interno_campanha=barreiraamp_2meses"
+  },
+      "authorizationFallbackResponse": {
+          "error": true
+      }
+  }
+</script>
 </head>
 
 <body>
-  <article class="paywall-amp-article" amp-access="p.showRegWall AND NOT loggedIn" amp-access-hide>
+  <article class="paywall-amp-article" amp-access="p.showPayWall OR p.showPageviewExpired" amp-access-hide="">
     <section class="paywall-amp-section1">
       <section class="paywall-amp-section1-content">
         <hgroup>
@@ -16,14 +32,20 @@
           Você ganhou <span>2 meses grátis</span> do Globo.
         </p>
         <button on="tap:amp-access.login-subscribe">Experimente</button>
-        <p class="paywall-amp-section1-content-details">Ao assinar com o Google, cadastre-se no Globo
-          para aproveitar todos os benefícios da sua assinatura.
+        <p class="paywall-amp-section1-content-details">
+          Ao assinar com o Google, cadastre-se no Globo para aproveitar todos os benefícios da sua assinatura.
         </p>
       </section>
     </section>
     <section class="paywall-amp-section2">
+      <amp-img id="barreiraPaywallAMP"
+        src="https://s3.glbimg.com/v1/AUTH_0ae9f161c1ff459593599b7ffa1a1292/images/escenic/2020/3/13/17/1584132384596.jpg"
+        width="10" height="2" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined"
+        i-amphtml-layout="fixed" style="width: 10px; height: 2px;" i-amphtml-auto-lightbox-visited=""></amp-img>
       <p class="paywall-amp-section2-login">Já possui conta? <a on="tap:amp-access.login-sign-in">Faça Login</a></p>
     </section>
   </article>
+  <div amp-access="c.showContent" class="article__content-container protected-content" amp-access-hide="">...</div>
 </body>
-</html> 
+
+</html>

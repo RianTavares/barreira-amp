@@ -1,11 +1,11 @@
-{
-    "authorization": "https://sandbox.tinypass.com/xbuilder/experience/executeAmp?protocol_version=1&aid=dXu7dvFKRi&reader_id=READER_ID&url=SOURCE_URL&referer=DOCUMENT_REFERRER&_=RANDOM&custom_variables=%7B%22tipoConteudoPiano%22%3A%22materia%22%2C%22ambienteUtilizadoPiano%22%3A%22int%22%2C%22conteudoExclusivo%22%3Atrue%2C%22nomeProdutoPiano%22%3A%22oglobo%22%7D",
+  {
+    "authorization": "https://dashboard.tinypass.com/xbuilder/experience/executeAmp?protocol_version=1&aid=GTCopIDc5z&reader_id=READER_ID&url=SOURCE_URL&referer=DOCUMENT_REFERRER&_=RANDOM&custom_variables=%7B%22tipoConteudoPiano%22%3A%22materia%22%2C%22ambienteUtilizadoPiano%22%3A%22prd%22%2C%22conteudoExclusivo%22%3Afalse%2C%22nomeProdutoPiano%22%3A%22oglobo%22%7D",
     "noPingback": "true",
     "login": {
-    "sign-in": "https://publisher.com/amp-login.html?reader_id=READER_ID&url=SOURCE_URL&_=RANDOM&return=RETURN_URL",
-    "subscribe": "https://assinaturaglobo.globo.com/o-globo/oferta/globo-digital-2-meses-gratis?campanha=nao&interno_origem=siteoglobo&interno_midia=barreiramp&interno_campanha=barreiraamp_2meses"
-},
+        "sign-in": "https://login.globo.com/login/3981?url=https://oglobo.globo.com/esportes/fifa-estuda-adiar-novo-mundial-de-clubes-para-2022-diz-jornal-24370868",
+        "subscribe": "https://assinaturaglobo.globo.com/o-globo/oferta/globo-digital-2-meses-gratis?campanha=nao&interno_origem=siteoglobo&interno_midia=barreiramp&interno_campanha=barreiraamp_2meses"
+    },
     "authorizationFallbackResponse": {
         "error": true
     }
-}
+  }
