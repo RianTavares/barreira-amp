@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.css" />
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-access" src="https://cdn.ampproject.org/v0/amp-access-0.1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script id="amp-access" type="application/json">
+      {
+        "authorization": "https://dashboard.tinypass.com/xbuilder/experience/executeAmp?protocol_version=1&aid=GTCopIDc5z&reader_id=READER_ID&url=SOURCE_URL&referer=DOCUMENT_REFERRER&_=RANDOM&custom_variables=%7B%22tipoConteudoPiano%22%3A%22materia%22%2C%22ambienteUtilizadoPiano%22%3A%22prd%22%2C%22conteudoExclusivo%22%3Afalse%2C%22nomeProdutoPiano%22%3A%22oglobo%22%7D",
+        "noPingback": "true",
+        "login": {
+          "sign-in": "https://login.globo.com/login/3981?url=https://oglobo.globo.com/esportes/fifa-estuda-adiar-novo-mundial-de-clubes-para-2022-diz-jornal-24370868",
+          "subscribe": "https://assinaturaglobo.globo.com/o-globo/vitrine/fique-bem-informado-com-o-globo?campanha=nao&interno_origem=siteoglobo&interno_midia=barreiramp&interno_campanha=og_barreiraamp"
+        },
+        "authorizationFallbackResponse": {
+          "error": true
+        }
+      }
+    </script>
+</head>
+
+<body>
+    <article class="paywall-amp-article" amp-access="p.showPayWall OR p.showPageviewExpired" amp-access-hide="">
+        <header class="paywall-amp-article-header">
+            <h1 class="paywall-amp-article-header-title">
+                Conteúdo exclusivo para assinantes o globo
+            </h1>
+            <div class="paywall-amp-article-header-app">
+                <img src="../assets/imgs/o-globo.png" />
+            </div>
+            <div class="paywall-amp-article-header-cover"></div>
+            <div class="paywall-amp-article-header-img"></div>
+            <a on="tap:amp-access.login-sign-in">
+                <div class="paywall-amp-article-header-bar">
+                    <p>
+                        Já é assinante?
+                        <span class="paywall-amp-article-header-bar-strong">FAÇA LOGIN</span>
+                    </p>
+                </div>
+            </a>
+            <amp-img id="barreiraPaywallAMP"
+                src="../assets/imgs/white.jpg"
+                width="10" height="2" style="width: 10px; height: 2px;">
+            </amp-img>
+        </header>
+        <a on="tap:amp-access.login-subscribe">
+            <section class="paywall-amp-article-main">
+                <div class="paywall-amp-article-main-content">
+                    <div class="paywall-amp-article-main-content-title">
+                        <p>Ainda não é assinante?</p>
+                    </div>
+                    <div class="paywall-amp-article-main-content-text">
+                        <p class="paywall-amp-article-main-content-text-p">Aproveite O GLOBO por apenas <span
+                                class="paywall-amp-article-main-content-text-strong">R$1,90/mês por 3 meses</span></p>
+                    </div>
+                    <button class="paywall-amp-article-main-content-button">EU QUERO</button>
+                </div>
+                </main>
+            </section>
+        </a>
+    </article>
+    <div amp-access="c.showContent" class="article__content-container protected-content" amp-access-hide="">...</div>
+</body>
+
+</html>
