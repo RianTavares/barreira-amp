@@ -94,9 +94,16 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: white;
-  font-size: 13px;
+}
 
+.paywall-amp-article
+  .paywall-amp-article-header
+  .paywall-amp-article-header-bar
+  p {
+  font-size: 13px;
   font-family: Roboto, HelveticaNeue, Arial, sans-serif;
+  margin: 8px 0 0 0;
+  padding: 0;
 }
 
 .paywall-amp-article
@@ -120,8 +127,15 @@ body {
 
 .paywall-amp-article-main
   .paywall-amp-article-main-content
-  .paywall-amp-article-main-content-title {
+  .paywall-amp-article-main-content-title
+  p {
   font-size: 22px;
+  color: black;
+  font-size: 22px;
+  font-family: Arial, sans-serif, Roboto, HelveticaNeue;
+  margin: 0;
+  text-align: center;
+  padding: 0;
 }
 
 .paywall-amp-article-main
@@ -134,8 +148,12 @@ body {
   .paywall-amp-article-main-content
   .paywall-amp-article-main-content-text
   .paywall-amp-article-main-content-text-p {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 25px;
+  font-family: Arial, sans-serif, Roboto, HelveticaNeue;
+  text-align: center;
+  line-height: unset;
+  padding: unset;
 }
 
 .paywall-amp-article-main
