@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <link rel="stylesheet" type="text/css" href="../assets/css/styles.css" />
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <script async custom-element="amp-access" src="https://cdn.ampproject.org/v0/amp-access-0.1.js"></script>
+    <script
+      async
+      custom-element="amp-access"
+      src="https://cdn.ampproject.org/v0/amp-access-0.1.js"
+    ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script id="amp-access" type="application/json">
       {
@@ -19,49 +22,71 @@
         }
       }
     </script>
-</head>
+  </head>
 
-<body>
-    <article class="paywall-amp-article" amp-access="p.showPayWall OR p.showPageviewExpired" amp-access-hide="">
-        <header class="paywall-amp-article-header">
-            <h1 class="paywall-amp-article-header-title">
-                Conteúdo exclusivo para assinantes o globo
-            </h1>
-            <div class="paywall-amp-article-header-app">
-                <img src="https://s3.glbimg.com/v1/AUTH_9119af978ee74bfd9ea6d41ee07bfb7f/amp-paywall/o-globo.png" />
-            </div>
-            <div class="paywall-amp-article-header-cover"></div>
-            <div class="paywall-amp-article-header-img"></div>
-            <a on="tap:amp-access.login-sign-in">
-                <div class="paywall-amp-article-header-bar">
-                    <p>
-                        Já é assinante?
-                        <span class="paywall-amp-article-header-bar-strong">FAÇA LOGIN</span>
-                    </p>
-                </div>
-            </a>
-            <amp-img id="barreiraPaywallAMP"
-                src="https://s3.glbimg.com/v1/AUTH_9119af978ee74bfd9ea6d41ee07bfb7f/amp-paywall/white.jpg"
-                width="10" height="2" style="width: 10px; height: 2px;">
-            </amp-img>
-        </header>
-        <a on="tap:amp-access.login-subscribe">
-            <section class="paywall-amp-article-main">
-                <div class="paywall-amp-article-main-content">
-                    <div class="paywall-amp-article-main-content-title">
-                        <p>Ainda não é assinante?</p>
-                    </div>
-                    <div class="paywall-amp-article-main-content-text">
-                        <p class="paywall-amp-article-main-content-text-p">Aproveite O GLOBO por apenas <span
-                                class="paywall-amp-article-main-content-text-strong">R$1,90/mês por 3 meses</span></p>
-                    </div>
-                    <button class="paywall-amp-article-main-content-button">EU QUERO</button>
-                </div>
-                </main>
-            </section>
+  <body>
+    <article
+      class="paywall-amp-article"
+      amp-access="p.showPayWall OR p.showPageviewExpired"
+      amp-access-hide=""
+    >
+      <header class="paywall-amp-article-header">
+        <h1 class="paywall-amp-article-header-title">
+          Conteúdo exclusivo para assinantes o globo
+        </h1>
+        <div class="paywall-amp-article-header-app">
+          <img
+            src="https://s3.glbimg.com/v1/AUTH_9119af978ee74bfd9ea6d41ee07bfb7f/amp-paywall/o-globo.png"
+          />
+        </div>
+        <div class="paywall-amp-article-header-cover"></div>
+        <div class="paywall-amp-article-header-img"></div>
+        <a on="tap:amp-access.login-sign-in">
+          <div class="paywall-amp-article-header-bar">
+            <p>
+              Já é assinante?
+              <span class="paywall-amp-article-header-bar-strong"
+                >FAÇA LOGIN</span
+              >
+            </p>
+          </div>
         </a>
+        <amp-img
+          id="barreiraPaywallAMP"
+          src="https://s3.glbimg.com/v1/AUTH_9119af978ee74bfd9ea6d41ee07bfb7f/amp-paywall/white.jpg"
+          width="10"
+          height="2"
+          style="width: 10px; height: 2px;"
+        >
+        </amp-img>
+      </header>
+      <a on="tap:amp-access.login-subscribe">
+        <section class="paywall-amp-article-main">
+          <div class="paywall-amp-article-main-content">
+            <div class="paywall-amp-article-main-content-title">
+              <p>Ainda não é assinante?</p>
+            </div>
+            <div class="paywall-amp-article-main-content-text">
+              <p class="paywall-amp-article-main-content-text-p">
+                Aproveite O GLOBO por apenas
+                <span class="paywall-amp-article-main-content-text-strong"
+                  >R$1,90/mês por 3 meses</span
+                >
+              </p>
+            </div>
+            <button class="paywall-amp-article-main-content-button">
+              EU QUERO
+            </button>
+          </div>
+        </section>
+      </a>
     </article>
-    <div amp-access="c.showContent" class="article__content-container protected-content" amp-access-hide="">...</div>
-</body>
-
+    <div
+      amp-access="c.showContent"
+      class="article__content-container protected-content"
+      amp-access-hide=""
+    >
+      ...
+    </div>
+  </body>
 </html>
